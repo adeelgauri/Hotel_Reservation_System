@@ -119,6 +119,8 @@ public class HotelManagement {
 //                System.out.println("Contact number = " + contactNumber);
 //                System.out.println("Reservation date = " + reservationDate);
 
+//                This statment for formating the code for better output (%-14d ) -14 is user for spacing after the value
+
                 System.out.printf("| %-14d | %-15s | %-13d | %-20s | %-19s   |\n",
                         reservationId, guestName, roomNumber, contactNumber, reservationDate);
             }
